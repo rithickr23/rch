@@ -32,12 +32,6 @@ body {
   height: 60px;
 }
 </style>
-
-
-
-
-
-
     body {
         font-family: Tiempos, sans-serif;
         background-image:url(https://royalcareneurosciences.com/wp-content/uploads/2024/05/hospital-img.jpg);
