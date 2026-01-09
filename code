@@ -3,113 +3,89 @@
 <head>
 <meta charset="UTF-8">
 <title>Visual Bookmarks</title>
-
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  background: #f2f4f8;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background: #1f2937;
+  color: white;
 }
 
 .bookmarks {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .bookmark {
   background: white;
-  padding: 15px;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #111;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bookmark:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }
 
 .bookmark img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
 }
-</style>
-    body {
-        font-family: Tiempos, sans-serif;
-        background-image:url(https://royalcareneurosciences.com/wp-content/uploads/2024/05/hospital-img.jpg);
-        margin:0;
-        padding:400px;
-        text-align:center;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    h1{
-        text-align:center;
-        display;block;
-    }
 
-    .bookmark-grid {
-        display: flex;
-        background:#D3D3D3;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
-        max-width: 920px;
-        margin: auto;
-    }
-
-    .bookmark {
-        border-radius: 14px;
-        padding: 20px 10px;
-        text-decoration: none;
-        color: black;
-    }
-
-    .bookmark img {
-        width: 110px;
-        height: 90px;
-        margin-bottom: 12px;
-    }
-
-    .bookmark span {
-        display: block;
-        font-size: 14px;
-        font-weight: bold;
-    }
+.bookmark p {
+  margin-top: 10px;
+  font-weight: bold;
+}
 </style>
 </head>
 
 <body>
 
-<div class="bookmark-grid">
+<h1>My Visual Bookmarks</h1>
 
-    <a class="bookmark" href="https://mail.royalcare.hospital/" target="_blank">
-        <img src="https://mail.royalcare.hospital/skins/_base/logos/LoginBanner_white.png?v=190329055110" style=background-color:dodgerblue;>
-        <span>Zimbra Mail</span>
-    </a>
+<div class="bookmarks">
 
-    <a class="bookmark" href="https://pacs.royalcare.hospital/" target="_blank">
-        <img src="https://mms.businesswire.com/media/20240415651211/en/2099043/4/PACS_logo.jpg">
-        <span>PACS</span>
-    </a>
+  <a class="bookmark" href="https://www.google.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+    <p>Google</p>
+  </a>
 
-    <a class="bookmark" href="https://outlook.live.com/owa/" target="_blank">
-        <img src="https://img.icons8.com/color/1200/microsoft-outlook-2025.jpg">
-        <span>Outlook</span>
-    </a>
+  <a class="bookmark" href="https://www.youtube.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg">
+    <p>YouTube</p>
+  </a>
 
-    <a class="bookmark" href="http://172.16.0.50/royalcare" target="_blank">
-        <img src="http://172.16.0.50/royalcare/Content/images/banner.png">
-        <span>Employee Portal</span>
-    </a>
+  <a class="bookmark" href="https://mail.google.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png">
+    <p>Gmail</p>
+  </a>
 
-    <a class="bookmark" href="https://432demotenxhealth3.zohocreatorportal.in/#Form:FMS_Ticketing_System" target="_blank">
-        <img src="https://uhorizon.pe/wp-content/uploads/2021/01/zoho-creator-header.png"  style=background-color:white;>
-        <span>Ticketing System</span>
-    </a>
+  <a class="bookmark" href="https://www.wikipedia.org">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png">
+    <p>Wikipedia</p>
+  </a>
 
-    <a class="bookmark" href="http://172.16.0.31:200/LoginNova.aspx" target="_blank">
-        <img src="http://172.16.0.31:200/images/login/akhil-logo.png"  style=background-color:white;>
-        <span>AKHIL HIMS</span>
-    </a>
+  <a class="bookmark" href="https://chat.openai.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
+    <p>ChatGPT</p>
+  </a>
 
 </div>
 
