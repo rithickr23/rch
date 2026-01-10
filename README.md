@@ -22,7 +22,7 @@
         background:#D3D3D3;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
-        max-width: 700px;
+        max-width: 920px;
         margin: auto;
     }
 
