@@ -19,6 +19,7 @@
 
     .bookmark-grid {
         display: flex;
+        background:#D3D3D3;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
         max-width: 700px;
@@ -29,7 +30,7 @@
         border-radius: 14px;
         padding: 20px 10px;
         text-decoration: none;
-        color: white;
+        color: black;
     }
 
     .bookmark img {
