@@ -72,12 +72,12 @@
     </a>
 
     <a class="bookmark" href="https://432demotenxhealth3.zohocreatorportal.in/#Form:FMS_Ticketing_System" target="_blank">
-        <img src="https://uhorizon.pe/wp-content/uploads/2021/01/zoho-creator-header.png">
+        <img src="https://uhorizon.pe/wp-content/uploads/2021/01/zoho-creator-header.png" style="background-color:white;">
         <span>Ticketing System</span>
     </a>
 
     <a class="bookmark" href="http://172.16.0.31:200/LoginNova.aspx" target="_blank">
-        <img src="http://172.16.0.31:200/images/login/akhil-logo.png">
+        <img src="http://172.16.0.31:200/images/login/akhil-logo.png" style="background-color:silver;">
         <span>AKHIL HIMS</span>
     </a>
 
