@@ -52,7 +52,7 @@
 <div class="bookmark-grid">
 
     <a class="bookmark" href="https://mail.royalcare.hospital/" target="_blank">
-        <img src="[zimbra.png](https://play-lh.googleusercontent.com/VHvh72XWFKECw_vwAbYPuWR-reSBWU_Y1MXi4zmRdL0BV_SEz2JOnfxJazzcg2QBglSB=w240-h480-rw)" style=background-color:dodgerblue;>
+        <img src="https://play-lh.googleusercontent.com/VHvh72XWFKECw_vwAbYPuWR-reSBWU_Y1MXi4zmRdL0BV_SEz2JOnfxJazzcg2QBglSB=w240-h480-rw">
         <span>Zimbra Mail</span>
     </a>
 
